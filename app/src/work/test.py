@@ -15,7 +15,7 @@ def test():
     # Создание модели 
     model = SunModel().get_model()
 
-    path = './app/data/data_set/test/'
+    path = './app/data/data_gen/data_set/test/'
     num_img = 100
 
     st = torch.load(Config.PATH_SAVE_MODEL, weights_only=False)
